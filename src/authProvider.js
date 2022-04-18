@@ -29,5 +29,4 @@ const AuthProvider = {
   // chamado quando o usuário navega para um novo local, para verificar as permissões / funções
   getPermissions: () => Promise.resolve(),
 };
-
 export default AuthProvider;
