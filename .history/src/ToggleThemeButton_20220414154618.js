@@ -1,0 +1,13 @@
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import LampIcon from '@material-ui/icons/InvertColors';
+import body from './app.css';
+
+const ToggleThemeButton = (props) => (
+  <Typography flex="1" variant="h6" id="react-admin-title">
+    {' '}
+    <LampIcon />
+  </Typography>
+);
+
+export default ToggleThemeButton;
