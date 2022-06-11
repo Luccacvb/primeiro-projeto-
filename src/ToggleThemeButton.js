@@ -4,7 +4,7 @@ import LampIcon from '@material-ui/icons/WbIncandescent';
 import { Button } from 'react-admin';
 
 const ToggleThemeButton = (props) => (
-  <Button color=""
+  <Button color=" "
     onClick={(e) => {
       if (props.theme === 'light') {
         props.setTheme('dark');
